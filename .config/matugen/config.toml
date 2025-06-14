@@ -18,6 +18,14 @@ output_path = "~/dotfiles/.config/kitty/themes/colors.conf"
 input_path = "~/.config/matugen/templates/oh-my-posh.toml"
 output_path = "~/.config/ompsh/theme.toml"
 
+[templates.yazi]
+input_path = '~/dotfiles/.config/matugen/templates/yazi-colors.toml'
+output_path = '~/dotfiles/.config/yazi/theme.toml'
+
+[templates.quickshell-colors]
+input_path = "~/.config/matugen/templates/quickshell-colors.js"
+output_path = "~/dotfiles/.config/quickshell/colors.js"
+
 [config.custom_colors.red]
 color = "#FF0000"
 blend = true

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ff29e9d5921b400",
+        "id": "6945fdd00572fa10",
         "type": "tabs",
         "children": [
           {
-            "id": "05c7a4da54983982",
+            "id": "bb5a9abb6a81296c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "summer_program_25.md",
+                "file": "za valto/zenflow_lib.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "summer_program_25"
+              "title": "zenflow_lib"
             }
           }
         ]
@@ -179,13 +179,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "05c7a4da54983982",
+  "active": "bb5a9abb6a81296c",
   "lastOpenFiles": [
+    "za valto/zenflow_lib.md",
+    "summer_program_25.md",
     "studies/school/grammar/Grammar_type_exam.md",
     "temps/gramm_template.md",
     "temps/self_template.md",
     "za valto/myself.md",
-    "summer_program_25.md",
     "studies/school/grammar/Pronomi Personali.md",
     "studies/school/grammar/Avverbio.md",
     "studies/school/grammar/Untitled.md",
@@ -208,7 +209,6 @@
     "temps/basic_template_ova.md",
     "tags/math.md",
     "temps/physics_template.md",
-    "temps/newtime.md",
     "temps/Untitled",
     "studies/school/physics",
     "studies/school/math",

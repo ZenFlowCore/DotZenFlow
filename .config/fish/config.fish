@@ -14,6 +14,8 @@ function fish_greeting
     # arise, to nothing.
 end
 
+abbr --add c clear
+abbr --add clr clear
 abbr --add ff fastfetch
 abbr --add vf nvim ~/dotfiles/.config/fish/config.fish
 abbr --add v nvim

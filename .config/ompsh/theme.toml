@@ -1,16 +1,16 @@
 version = 3
 
 [palette]
-  background = '#0f1416'
+  background = '#0e1416'
   error = '#ff5945'
   foreground = '#dee3e5'
   outline = '#899295'
-  primary = '#84d2e6'
-  secondary = '#b2cbd2'
+  primary = '#83d2e3'
+  secondary = '#b1cbd1'
   shadow = '#000000'
-  surface = '#0f1416'
+  surface = '#0e1416'
   surface_bright = '#343a3c'
-  tertiary = '#bec4eb'
+  tertiary = '#bcc5eb'
 
 [[blocks]]
   type = 'prompt'
