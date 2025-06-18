@@ -1,6 +1,6 @@
 
-var background = "{{colors.background.default.hex}}"
-var foreground = "{{colors.white.default.hex}}"
+var background = "{{colors.background.default.hex | set_lightness: -4.0 }}"
+var foreground = "{{colors.white.default.hex | set_lightness: +20.0}}"
 var surface = "{{colors.surface.default.hex}}";
 var primary = "{{colors.primary.default.hex}}";
 var secondary = "{{colors.secondary.default.hex}}";

@@ -6,11 +6,12 @@ oh-my-posh init fish --config /home/zen/dotfiles/.config/ompsh/theme.toml | sour
   # starship init fish | source
 zoxide init fish | source
 /home/linuxbrew/.linuxbrew/bin/brew shellenv | source
-export obsidian_use_wayland=1
 
+set -x QS_NO_RELOAD_POPUP 1
+export obsidian_use_wayland=1
 export PATH="$PATH:/home/zen/.spicetify"
 export PATH="$PATH:/home/zen/.local/bin"
-function fish_greeting                                            
+function fish_greeting                                          
     # arise, to nothing.
 end
 
@@ -24,3 +25,4 @@ abbr --add matuconf nvim ~/dotfiles/.config/Ax-Shell/config/matugen/config.toml
 abbr --add ky nvim ~/dotfiles/.config/kitty/kitty.conf
 abbr --add hy nvim ~/dotfiles/.config/hypr/hyprland.conf
 abbr --add ls exa --oneline --reverse --sort=type
+abbr --add zenb flatpak run app.zen_browser.zen

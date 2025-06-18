@@ -1,1 +1,0 @@
-quickshell/shell.qml

@@ -47,7 +47,6 @@ up_arrow: str = "&#xea25;"
 # Circles
 temp: str = "&#xeb38;"
 disk: str = "&#xea88;"
-battery: str = "&#xf668;"
 memory: str = "&#xfa97;"
 cpu: str = "&#xef8e;"
 gpu: str = "&#xf233;"
@@ -91,6 +90,8 @@ bat_discharging_low: str = "&#xea2f;"
 bat_discharging_medium: str = "&#xea30;"
 bat_discharging_medium_high: str = "&#xea31;"
 
+# Battery
+battery: str = "&#xf668;"
 
 
 # Applets

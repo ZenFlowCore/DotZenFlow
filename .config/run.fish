@@ -1,1 +1,0 @@
-quickshell/run.fish

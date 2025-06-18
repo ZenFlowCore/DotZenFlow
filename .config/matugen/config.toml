@@ -3,29 +3,61 @@ reload_apps = true
 
 [config.wallpaper]
 command = "swww"
-arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
+arguments = [
+    "img",
+    "-t",
+    "grow",
+    "--transition-duration",
+    "4",
+    "--transition-step",
+    "255",
+    "--transition-fps",
+    "90",
+  
+]
 set = true
 
 [templates.hyprland]
-input_path = "~/.config/matugen/templates/hyprland-colors.conf"
+input_path = "./templates/hyprland-colors.conf"
 output_path = "~/.config/hypr/colors.conf"
 
 [templates.kitty]
-input_path = "~/.config/matugen/templates/kitty-colors.conf"
+input_path = "./templates/kitty-colors.conf"
 output_path = "~/dotfiles/.config/kitty/themes/colors.conf"
 
 [templates.oh-my-posh]
-input_path = "~/.config/matugen/templates/oh-my-posh.toml"
+input_path = "./templates/oh-my-posh.toml"
 output_path = "~/.config/ompsh/theme.toml"
 
 [templates.yazi]
-input_path = '~/dotfiles/.config/matugen/templates/yazi-colors.toml'
+input_path = './templates/yazi-colors.toml'
 output_path = '~/dotfiles/.config/yazi/theme.toml'
 
 [templates.quickshell-colors]
-input_path = "~/.config/matugen/templates/quickshell-colors.js"
+input_path = "./templates/quickshell-colors.js"
 output_path = "~/dotfiles/.config/quickshell/colors.js"
 
+[templates.spicetify-colors]
+input_path = "./templates/spicetify-colors.ini"
+output_path = "../spicetify/Themes/Dribbblish/color.ini"
+post_hook = "spicetify apply" 
+
+[templates.gtk3]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.local/share/themes/Orchis-Dark/gtk-3.0/colors.css'
+
+[templates.gtk4]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.local/share/themes/Orchis-Dark/gtk-4.0/colors.css'
+
+[templates.svg]
+input_path = "./templates/svg-colors.svg"
+output_path = "../quickshell/icons/battery/battery-vertical_full.svg"
+
+[templates.cava-colors]
+input_path = "./templates/cava-colors"
+output_path = "../cava/config"
+post_hook = "pkill -USR1 cava"
 [config.custom_colors.red]
 color = "#FF0000"
 blend = true
@@ -41,6 +73,8 @@ blend = true
 [config.custom_colors.yellow]
 color = "#FFFF00"
 blend = true
+
+
 
 [config.custom_colors.blue]
 color = "#00AAFF"
@@ -67,11 +101,11 @@ color = "#ffa348"
 blend = true
 
 [config.custom_colors.white]
-color = "#FFFFFF"
-blend = true
+color = "#FFFFFFFF"
+blend = false
 
 [config.custom_colors.pastel_green]
-color = "#8ff0a4"
+color = "#8ff0a4FF"
 blend = true
 
 [config.custom_colors.pastel_red]
@@ -85,5 +119,3 @@ blend = true
 [config.custom_colors.pastel_mint_green]
 color = "#93ddc2"
 blend = true
-
-
