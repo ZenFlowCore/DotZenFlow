@@ -1,6 +1,9 @@
-# WerDots!
-- [ ] Implement install.sh files
-- [ ] Implement 
+# ZenFlow!
+
+>[!DESCRIPTION]
+>Dotfiles with a ___bizarre___ flow. 
+
+- [ ] Create autoinstall
 - [ ] App Launcher
 - [ ] Bluetooth Manager
 - [ ] Calculator
@@ -14,8 +17,6 @@
 - [ ] Kanban Board
 - [ ] Network Manager
 - [ ] Notifications
-- [ ] OCR
-- [ ] Pins
 - [ ] Power Manager
 - [ ] Power Menu
 - [ ] Screen Recorder
@@ -30,5 +31,3 @@
 - [ ] Workspaces Overview
 - [ ] Multi-monitor support
 - [ ] Multimodal AI Assistant
-- [ ] OSD
-- [ ] OTP Manager
