@@ -1,8 +1,8 @@
 # ZenFlow!
+### Dotfiles with a ___bizarre___ flow. 
 
->[!DESCRIPTION]
->Dotfiles with a ___bizarre___ flow. 
 
+## Roadmap
 - [ ] Create autoinstall
 - [ ] App Launcher
 - [ ] Bluetooth Manager
